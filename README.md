@@ -2,6 +2,9 @@
 
 This PowerShell script is specifically designed to detect unauthorized modifications of Security Accounts Manager (SAM) profile IDs within Windows systems. It checks if any users have manipulated their profile IDs to masquerade with elevated privileges, such as those of a local administrator. This script is crucial for security audits, helping administrators identify potential security breaches where user privileges may have been escalated through SAM tampering.
 
+## Demo Video of User Modifying SAM Directly for Admin Persistence
+https://www.youtube.com/watch?v=kpKswI1MXkA
+
 ## Prerequisites
 
 - Administrative privileges on the host machine.
